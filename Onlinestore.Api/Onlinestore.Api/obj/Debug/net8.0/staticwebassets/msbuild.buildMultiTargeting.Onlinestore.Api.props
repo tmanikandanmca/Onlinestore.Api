@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Onlinestore.Api.props" />
+</Project>

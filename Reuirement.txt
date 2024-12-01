@@ -1,0 +1,113 @@
+Key Features of Diagrams
+
+	1.	Tables and Columns:
+	•	Diagrams display tables with their respective columns, data types, and constraints.
+	•	Primary keys (PK) and foreign keys (FK) are highlighted to show relationships.
+	2.	Relationships:
+	•	Diagrams show how tables are connected, such as one-to-many or many-to-many relationships.
+	•	Foreign keys link child tables to their parent tables.
+	3.	Schema Representation:
+	•	Different schemas (e.g., Person, Sales, Production) are represented, showing logical groupings of related tables.
+	4.	Navigation and Insights:
+	•	Diagrams help visualize complex database structures, useful for training, troubleshooting, and optimization.
+
+    Functional Requirements for AdventureWorks CRM Application
+1. User Management
+User Registration:
+
+Users should be able to register by providing their name, email, password, and contact details.
+
+User Login:
+
+Registered users should be able to log in using their email and password.
+
+User Roles:
+
+The system should support different user roles such as Admin, Manager, and User, with specific permissions for each role.
+
+2. Customer Management
+Customer Information:
+
+Users should be able to add, update, view, and delete customer records in the AdventureWorks database.
+
+Customer records should include details such as name, contact information, address, and order history.
+
+Search and Filter:
+
+Users should be able to search and filter customer records based on various criteria (e.g., name, email, purchase history).
+
+3. Order Management
+Order Creation:
+
+Users should be able to create new orders for customers and link them to the AdventureWorks database.
+
+Order Tracking:
+
+Users should be able to view the status of orders (e.g., pending, completed, shipped).
+
+Order History:
+
+The system should maintain a history of all orders placed by each customer.
+
+4. Product Management
+Product Information:
+
+Users should be able to add, update, view, and delete product records in the AdventureWorks database.
+
+Product records should include details such as name, description, price, and inventory count.
+
+Inventory Management:
+
+The system should track inventory levels and alert users when inventory is low.
+
+5. Reporting and Analytics
+Sales Reports:
+
+Users should be able to generate sales reports based on data from the AdventureWorks database.
+
+Customer Reports:
+
+The system should generate reports on customer activities, including new registrations and purchase patterns.
+
+Product Reports:
+
+Users should be able to generate reports on product performance, such as best-selling products and inventory status.
+
+6. Security
+Authentication:
+
+The system should use secure authentication mechanisms to ensure that only authorized users can access the system.
+
+Authorization:
+
+The system should enforce role-based access control to restrict access to certain functionalities based on the user’s role.
+
+Data Encryption:
+
+Sensitive data such as passwords should be encrypted both in transit and at rest.
+
+7. User Interface
+Dashboard:
+
+The system should provide a dashboard displaying an overview of key metrics and activities.
+
+Responsive Design:
+
+The application should be responsive and accessible on various devices (e.g., desktops, tablets, smartphones).
+
+Non-Functional Requirements
+Performance:
+
+The system should handle up to 1000 concurrent users without performance degradation.
+
+Scalability:
+
+The system should be scalable to accommodate future growth in terms of users and data volume.
+
+Usability:
+
+The application should be user-friendly and intuitive, requiring minimal training for new users.
+
+Reliability:
+
+The system should have an uptime of 99.9% and handle unexpected errors gracefully.
